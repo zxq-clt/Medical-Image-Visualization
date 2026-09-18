@@ -119,3 +119,4 @@ if __name__ == "__main__":
     slice_index = 52 # 自定义切片索引
 
     visualize_image_with_label(image_path, label_path, slice_index)
+# 保存图像
