@@ -114,9 +114,7 @@ def visualize_image_with_label(image_path, label_path, slice_index, figsize=(10,
 # 主程序调用
 if __name__ == "__main__":
     # 替换为实际路径
-    image_path = r"C:\Users\86150\Desktop\kits19\case_00019\imaging.nii.gz"
-    label_path = r"C:\Users\86150\Desktop\kits19\case_00019\segmentation.nii.gz"
-    slice_index = 52 # 自定义切片索引
+
 
     visualize_image_with_label(image_path, label_path, slice_index)
 # 保存图像
